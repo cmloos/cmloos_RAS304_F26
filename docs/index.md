@@ -5,18 +5,20 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">(Your Name) Datasheet</font><br>
+<font size= "6">Connor Loos' Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Robotic Arm Controller Project</font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "5"> Team 103 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: 12, 10, 2026**
 </center>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+The purpose of this datasheet is to document the work that has been put into the design of the main controlling subsystem. This website includes the block diagram, components, bill of materials, schematic, and power budget of this subsystem.
+
+The main controller subsystem is essentially the "brain" of the entire system. It takes in data from the motor controller subsystem, the heat and load subsystem, and the host computer, before calculating how the arm can move in order to achieve the desired position. The calculated inputs are then sent to the motor controller subsystem.
 
 ### Project Summary
 
