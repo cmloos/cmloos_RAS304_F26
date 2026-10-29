@@ -6,19 +6,17 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
-
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+The main subsystem includes the following attributes in its block diagram:
+* This subsystem will use 5V at 1.5A
+* This subsystem doesn't have a local sensor, however it will utilize sensor data from the Motor Encoder subsystem and the Load/Heat Subsystem
+* This subsystem doesn't have a local actuator, however it has 3 LEDs which will indicate the status of the subsystem
+* This subsystem is connected through 2 pins to the Motor Driver and Motor Encoder subsystems
+  * It is also connected to the Load/Heat subsystem via 4 pins
+* This subsystem will be connected directly to a host computer for motion inputs
+  * The power for the subsystem will be derived from the host computer's USB port 
 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
+## Block Diagram 
+The following image is the block diagram for this subsystem
 
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+![Indivial Block diagram](MAIN%20Subsystem.drawio%20(2).png)
