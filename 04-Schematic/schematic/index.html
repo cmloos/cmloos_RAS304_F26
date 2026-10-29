@@ -998,11 +998,13 @@
   <h1>Schematic</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This schematic is design to support .... (highlight functionally, power, and controller).</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Screenshot.png" data-desc-position="bottom"><img alt="schematic" height:_300_="height:&quot;300;&quot;" src="../Screenshot.png" style="style" width:_350_="width:&quot;350&quot;"></a>
-<strong>Figure ##:</strong> Showing a example schematic.</p>
+<p>This schematic is design to function as the main processor for the robotic arm controller. The PIC18F57Q43 Curiosity Nano will be connected to a host computer via USB-c, and power will be supplied to the board via a barrel jack port on the PIC. The barrel jack's power is sent through a voltage regulator in order to be converted to 5VDC. The power produced by the voltage regulator is passed through a fuse in order to protect the board.</p>
+<p>There are three LEDs on the board, which will be used to inform the user what the status of the board is. The three LEDs give the option of up to 8 different codes based on the pattern that the LEDs are lit. Each of the LEDs is fed power through signal ports RF1-RF3, and the signals pass through a 100 ohm resistor in order to protect the LEDs</p>
+<p>Signals from the three other subsystems are sent to the 1x8 pin connectors in the diagram (although in the actual design we will be using 2x4 pin connectors), which are then passed directly to their respective ports as outlined in the box diagram. The ground pins for each of the 1x8 connectors are linked together, and are subsequently tied to a ground port on the Curiosity Nano.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Main_Subsystem_Schematic%20conv%201.png" data-desc-position="bottom"><img alt="schematic" src="../Main_Subsystem_Schematic%20conv%201.png"></a>
+<strong>Figure 01:</strong> Showing the schematic of the main subsystem.</p>
 <h2 id="resouces">Resouces</h2>
-<p>The schematic as a PDF download is available <a href="../ExampleSchematic.pdf"><em>here</em></a>, and the Zip folder of the project <a href="../dummyZip.zip"><em>here</em></a>.</p>
+<p>The schematic as a PDF download is available <a href="../Main_Subsystem_Schematic.pdf"><em>here</em></a>, and the Zip folder of the project <a href="../dummyZip.zip"><em>here</em></a>.</p>
 
 
 
