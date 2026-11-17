@@ -1,28 +1,20 @@
 ---
 title: Bill of Materials
-tags:
-- tag1
-- tag2
 ---
 
 ## Overview
-written context
+This table indicates the products that I needed to purchase for the PCB. These materials are all sourced from Mouser Electronics.
 
-## Bill of Materials Example (as Table)
+# Bill of Materials - 11/17/2026
 
-*Table ##: An example of one approach to adding your BOM table to this section.*
-
-| **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
-|:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-8-bit SIPO/SISO Shift Register, SOIC-16 package | 1 | $0.49 | $ 0.49 | NXP | 74HC595D,112 | [DigiKey](https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550) | [datasheet link](https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf) | U1 |
-0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package |10 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | C2, C4, C6, C7, C8, C9, C10, C11, C12, C16
-
-Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.
-
-* You could also import your BOM via a screenshot of the spreadsheet created BOM
-
-## Bill of Materials Example (as Image)
-![](BOM-Screenshot.png){style width: "2000"}
-**Figure 2:** Example Bill of Materials as a screenshot.
-
-As you can see, the text can be difficult to read without opening the image.
+| Part Name/Description | Quantity | Unit Prototype Cost | Total Prototype Cost | Unit Production Cost | Total Production Cost | Manufacturer | Part Vendor | Vendor Link | Datasheet Link | Supplier | Supplier Part # | #Ordered | Order date | # Received | Surplus | Schematic reference Designators |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| SparkFun Accessories DC power jack/connector. This is a common barrel-type power jack for DC wall supplies. These are compatible with our DC wall supplies and have a 5.5mm jack with a 2.1mm center pole diameter.Datasheets: Datasheet | 1 | 1.75 | 1.75 | 1.75 | 1.75 | SparkFun | Mouser Electronics | [Link](https://www.mouser.com/en/ProductDetail/SparkFun/PRT-00119?qs=WyAARYrbSnbnQpS9xf%252Bx5A%3D%3D) | [Link](https://docs.sparkfun.com/SparkFun_Buck_Regulator_AP63357DV-7/board_files/hookup_guide.pdf) | Mouser Electronics | 474-PRT-00119 | 2 | 2026-11-17 |  |  | J4 |
+| Multilayer Ceramic Capacitors MLCC - Leaded 50V 0.33uF 10% BX S (0.001%/1K Hrs) LS=5.08mm | 1 | 4.12 | 4.12 | 1.89 | 1.89 | KEMET | Mouser Electronics | [Link](https://www.mouser.com/en/ProductDetail/KEMET/C066T334K5X5CS?qs=sGAEpiMZZMuMW9TJLBQkXsdd8p8aH65oEG8VN%252BbLMAU%3D) | [Link](https://www.mouser.com/datasheet/3/72/1/F3101_MIL_PRF_39014.pdf) | Mouser Electronics | 80-C066T334K5X5CS | 2 | 2026-11-17 |  |  | C1 |
+| Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 MLCC X7R 0.1 uF, +/- 10% 100 V T&R MG | 1 | 0.15 | 0.15 | 0.012 | 0.01 | Walsin | Mouser Electronics | [Link](https://www.mouser.com/en/ProductDetail/Walsin/MG21B104K101CT?qs=7D1LtPJG0i0otz5CFAosWA%3D%3D) | [Link](https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_Automotive_MG.pdf) | Mouser Electronics | 791-MG21B104K101CT | 2 | 2026-11-17 |  |  | C2 |
+| Linear Voltage Regulators 5 Volt Reg | 1 | 1.86 | 1.86 | 1.01 | 1.01 | Texas Instruments | Mouser Electronics | [Link](https://www.mouser.com/en/ProductDetail/Texas-Instruments/LM7805CT-NOPB?qs=OYMYEaN9QmBS2GvaX6GSkQ%3D%3D) | [Link](https://www.ti.com/lit/gpn/lm7800) | Mouser Electronics | 926-LM7805CT/NOPB | 2 | 2026-11-17 |  |  | VR1 |
+| Fuse Holder WR-FSH BLOCKS PCB CLIP COVER THT | 1 | 0.64 | 0.64 | 0.372 | 0.372 | Wurth Elektronik | Mouser Electronics | [Link](https://www.mouser.com/en/ProductDetail/Wurth-Elektronik/696106003002?qs=sGAEpiMZZMuxTAA0eeO5G4B6PR9Rh8ggScEwQJ9n4m1SmoGpvHrFQg%3D%3D) | [Link](https://www.we-online.com/catalog/datasheet/696106003002.pdf) | Mouser Electronics | 710-696106003002 | 2 | 2026-11-17 |  |  | F1 |
+| Headers & Wire Housings 2X4 P STR HD | 3 | 1.23 | 3.69 | 0.649 | 1.95 | Amphenol FCL | Mouser Electronics | [Link](https://www.mouser.com/en/ProductDetail/Amphenol-FCI/67996-208HLF?qs=sGAEpiMZZMvlX3nhDDO4AEsbePljJFjKhS%2F%252BUT78ZII%3D) | [Link](https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/67996.pdf) | Mouser Electronics | 649-67996-208HLF | 4 | 2026-11-17 |  |  | J1, J2, J3 |
+| Single Color LEDs SMD 0402 0.35mm height Green | 3 | 0.29 | 0.87 | 0.073 | 0.21 | Dialight | Mouser Electronics | [Link](https://www.mouser.com/en/ProductDetail/Dialight/599-1A80-147F?qs=sGAEpiMZZMt82OzCyDsLFLVDvQtOIH0EjW8RcT%252B1rzE%3D) | [Link](https://www.mouser.com/datasheet/3/350/1/C18789.pdf) | Mouser Electronics | 645-599-1A80-147F | 4 | 2026-11-17 |  |  | D1, D2, D3 |
+| NTC Thermistors 100 OHM 5% | 3 | 0.12 | 0.36 | 0.053 | 0.159 | Panasonic Industry | Mouser Electronics | [Link](https://www.mouser.com/en/ProductDetail/Panasonic-Industry/ERT-J1VA101J?qs=sGAEpiMZZMsZt0HrY5I79knXTKm4FRROrF9SSJvhEVQ%3D) | [Link](https://industrial.panasonic.com/cdbs/www-data/pdf/AUA0000/AUA0000C8.pdf) | Mouser Electronics | 667-ERT-J1VA101J | 4 | 2026-11-17 |  |  | R1, R2, R3 |
+| Development Boards & Kits - PIC / DSPIC PIC18F56Q71 Curiosity Nano | 1 | 10.61 | 10.61 | 10.61 | 10.61 | Microchip Technology | Mouser Electronics | [Link](https://www.mouser.com/en/ProductDetail/Microchip-Technology/EV01G21A?qs=sGAEpiMZZMuqBwn8WqcFUipNgoezRlc4%2FIjKGu4wbeDzQiLSjFbQ3g%3D%3D) | [Link](https://www.mouser.com/datasheet/3/282/1/PIC18F56Q71_CuriosityNano_HW_UG_DS50003481.pdf) | Mouser Electronics | 579-EV01G21A | 2 | 2026-11-17 |  |  | CL_PIC18F56Q71_Curiosity_Nano1 |
