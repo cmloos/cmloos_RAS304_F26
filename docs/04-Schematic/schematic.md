@@ -11,10 +11,10 @@ There are three LEDs on the board, which will be used to inform the user what th
 Signals from the three other subsystems are sent to the 1x8 pin connectors in the diagram (although in the actual design we will be using 2x4 pin connectors), which are then passed directly to their respective ports as outlined in the box diagram. The ground pins for each of the 1x8 connectors are linked together, and are subsequently tied to a ground port on the Curiosity Nano.
 
 
-![schematic](Main_Subsystem_Schematic%20conv%201.png)
+![schematic](MainSubsystemSchematic%20conv%201.png)
 **Figure 01:** Showing the schematic of the main subsystem.
 
 
-## Resouces
+## Resources
 
-The schematic as a PDF download is available [*here*](Main_Subsystem_Schematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](MainSubsystemSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
